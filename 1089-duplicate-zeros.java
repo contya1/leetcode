@@ -10,7 +10,7 @@ class Solution {
         //index increment as we add elements in List
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 0) {
-                ll.add(index++,  arr[i]);      // zero from array
+                ll.add(index++, arr[i]);      // zero from array
                 ll.add(index++, 0);           // add duplicate zero
             } else {
                 ll.add(index++, arr[i]);
